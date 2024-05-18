@@ -48,7 +48,7 @@ Let's consider the evidence:
 
 **Note**:
 The note says "rth month"
-No tricks here, the the entire phrase is supposed to be "Birth Month"
+No tricks here, the entire phrase is supposed to be "Birth Month"
 
 **Letter**: 
 - aye i need you to do a 
