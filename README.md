@@ -15,17 +15,17 @@ This was my final project for COSC 236 at Towson University for Dr. Dastyni Loks
 
 **Credit:**
 - *Older Version:* Collaborated with Michael Reifer where we developed the program and storyline. Utilized starter code provided by Dr. Dastyni Loksa.
-- *Newer Version:* This version was done completely independently. I slighlty changed the original storyline (clarified and used different clues). I only utilized the helper methods and the game loop functionality from the starter code Dr. Loksa provided.
+- *Newer Version:* This version was done completely independently. I slightly changed the original storyline (used different clues) and I only utilized the helper methods and game loop functionality from the Dr. Loksa's starter code.
 
 
-Next, I will explain how to reach the endings. I am including this section because reaching the conclusion requires you to interpret the clues. If you have the time, I highly recommend skipping this part until you have gotten stuck or lost.
+Next, I will explain how to reach the endings. I am including this section because reaching one of the endings requires you to interpret the clues. If you have the time, I highly recommend skipping this part until you have gotten stuck or lost.
 
 ## Endings
 This game offers two possible conclusions:
 1. Collect all evidence (straightforward).
 2. Deciphering the code to the safe.
 
-The first ending requires knowing the game mechanics. I will discuss the intuition behind the code for the safe.
+The first ending simply requires knowing the game mechanics. I will discuss the intuition behind the code for the safe.
 
 ## How to determine the 8-digit code to the safe:
 
