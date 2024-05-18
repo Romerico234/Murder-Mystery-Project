@@ -144,8 +144,7 @@ public class CommandSystem {
 
     private String lookInventoryItem(String itemName) {
         for (Item item : player.getInventory())
-            if (item.getName().equalsIgnoreCase(itemName)
-                    || item.getName().replaceAll(" ", "").equalsIgnoreCase(itemName))
+            if (item.getName().equalsIgnoreCase(itemName))
                 return item.getDescription();
         return "Item not found in your inventory.";
     }
@@ -226,12 +225,11 @@ public class CommandSystem {
     private String lookAt(String noun) {
         currentLocation = state.getCurrentLocation();
         for (Item item : currentLocation.getItems())
-            if (item.getName().equalsIgnoreCase(noun) || item.getName().replaceAll(" ", "").equalsIgnoreCase(noun))
+            if (item.getName().equalsIgnoreCase(noun))
                 return item.getDescription();
 
         for (Person character : currentLocation.getCharacters())
-            if (character.getName().equalsIgnoreCase(noun)
-                    || character.getName().replaceAll(" ", "").equalsIgnoreCase(noun))
+            if (character.getName().equalsIgnoreCase(noun))
                 return character.getDescription();
         return "You don't see " + noun + " here.";
     }
@@ -239,8 +237,7 @@ public class CommandSystem {
     private String talkTo(String person) {
         currentLocation = state.getCurrentLocation();
         for (Person character : currentLocation.getCharacters())
-            if (character.getName().equalsIgnoreCase(person)
-                    || character.getName().replaceAll(" ", "").equalsIgnoreCase(person))
+            if (character.getName().equalsIgnoreCase(person))
                 return character.getDescription();
         return "You don't see " + person + " here.";
     }
