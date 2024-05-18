@@ -270,8 +270,7 @@ public class CommandSystem {
         code = console.nextInt();
         while (code != quit) {
             if (code == state.SAFE_CODE) {
-                gameOutput(
-                        "By using all the clues, you open the safe (code: 10211225). There are two knives, one seems to be a kitchen knife and the other is a dagger with an engraving of \"Joseph\". You determine that all three of them were responsible for the crime. You return to the police station with the three suspects in custody.");
+                gameOutput("By using all the clues, you open the safe (code: 10211225). There are two knives inside: one seems to be a kitchen knife and the other is a dagger with an engraving of 'Joseph'. You determine all three suspects: Richard Jr, Joseph, and Uncle Bob were involved in the crime. You return to the police station with the three suspects in custody.");
                 System.out.println("You won the game!");
                 state.setRunning(false); // End the game
                 break;
