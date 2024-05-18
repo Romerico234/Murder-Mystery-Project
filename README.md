@@ -46,31 +46,30 @@ But, you will quickly realize that this is wrong.
 
 Let's consider the evidence:
 
-### Note:
+**Note**:
 The note says "rth month"
 No tricks here, the the entire phrase is supposed to be "Birth Month"
 
-### Letter: 
-aye i need you to do a 
-lil favor for me. Yo
-pops been pressing me about working so i 
-have to go job hunting this 
-afternoon. do my laundry while im out 
-buddy. ill come back with ur favorite
-ensaimadas
-thanks 
-
+**Letter**: 
+- aye i need you to do a 
+- lil favor for me. Yo
+- pops been pressing me about working so i 
+- have to go job hunting this 
+- afternoon. do my laundry while im out 
+- buddy. ill come back with ur favorite
+- ensaimadas
+- thanks 
 The first letter of each line spells "alphabet"
 
-### Chess board with pawns on A1 and B2:
+**Chess board with pawns on A1 and B2**:
 The letter a is the first letter in the alphabet and the letter b is the second letter on the alphabet
 
 So, to crack the clues, consider the birth months of the characters and the alphabetical positions of each letter:
 
 Richard Jr's Birth Month: July
-J = 10
-U = 21
-L = 12
-Y = 25
+- J = 10
+- U = 21
+- L = 12
+- Y = 25
 
 Thus, the code 10211225 corresponds to Richard Jr's birth month encrypted based on the position of each letter of July in the alphabet.
