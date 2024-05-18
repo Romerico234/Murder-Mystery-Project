@@ -21,7 +21,7 @@ public class CommandSystem {
         addVerb("collect", "Put an item into your inventory: [collect kitchen crimereport]");
         addVerb("talk", "Interrogate or talk to people [talk unclebob]");
         addVerb("look",
-                "Look in your current area: [look] or look at your inventory: [look inventory] and [look inventory item]");
+                "Look in your current area: [look] | Look at an item: [look item] | Look at your inventory: [look inventory] and [look inventory item]");
         addVerb("open", "Used to open something [open location item]");
         addVerb("quit", "Quit the game. [quit]");
         addVerb("?", "Show this help screen. [?]");
@@ -38,7 +38,7 @@ public class CommandSystem {
         addNoun("kitchen");
         addNoun("bathroom");
         addNoun("livingroom");
-        addNoun("glassshards");
+        addNoun("chessboard");
         addNoun("open");
         addNoun("note");
         addNoun("crimereport");
@@ -106,7 +106,10 @@ public class CommandSystem {
             default:
                 resultString = "Unknown command: " + verb;
         }
-        gameOutput(resultString);
+        if (noun.equalsIgnoreCase("letter"))
+            System.out.println(resultString);
+        else 
+            gameOutput(resultString);
     }
 
     public void executeVerbNounNoun(String verb, String noun1, String noun2) {

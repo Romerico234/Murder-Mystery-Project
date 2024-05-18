@@ -35,7 +35,7 @@ public class App {
         richardBedroom.addItem(initializeLetter());
         kitchen.addItem(initializeCrimeReport());
         bathroom.addItem(initializeNote());
-        livingRoom.addItem(initializeGlassShards());
+        livingRoom.addItem(initializeChessBoard());
 
         // Create player
         Person player = new Person("Detective");
@@ -129,7 +129,7 @@ public class App {
 
     private static Location initializeBathroom() {
         return new Location("Bathroom",
-                "The bathroom mirrors were wrecked. It is unsure what happened here.");
+                "Nothing seems out of the ordinary in the bathroom.");
     }
 
     private static Location initializeLivingRoom() {
@@ -144,7 +144,7 @@ public class App {
 
     private static Item initializeLetter() {
         return new Item("Letter",
-                "The letter was written to Richards by Uncle Bob. It says: Aye, i need you to do a lil favor for me. Yo pops been pressing me bout getting a job so imma go look for something this afternoon. Do my laundry while im out, ill bring back a treat.");
+                "The letter was written to Richards by Uncle Bob. It says: \naye i need you to do a \nlil favor for me. Yo\npops been pressing me about working so i \nhave to go job hunting this \nafternoon. do my laundry while im out \nbuddy. ill come back with ur favorite\nensaimadas\nthanks ");
     }
 
     private static Item initializeCrimeReport() {
@@ -153,26 +153,26 @@ public class App {
     }
 
     private static Item initializeNote() {
-        return new Item("Note", "The ripped note says: \"Month\".");
+        return new Item("Note", "The ripped note says: \"rth Month\".");
     }
 
-    private static Item initializeGlassShards() {
-        return new Item("GlassShards", "There are pieces of glass laying on the ground. Where would they be from?");
+    private static Item initializeChessBoard() {
+        return new Item("ChessBoard", "A chess board lies on the coffle table. There are two pawns positioned on A1 and B2");
     }
 
     private static Person initializeRichard() {
         return new Person("Richard",
-                "Richard streams tears saying, \"I don't know what happened, I'm sorry.\" Richard didn't have the best relationship with his parents and constantly argued. He seems really devastated by this event. You give him time to console. He was born July 30th 2007, is 5'10\", weighs 160lbs, and has 11\" feet size");
+                "Richard streams tears saying, \"I don't know what happened, I'm sorry.\" Richard didn't have the best relationship with his parents and constantly argued. He seems really devastated by this event. You give him time to console. He was born on July 30th 2007, is 5'10\", weighs 160lbs, and has 11\" feet size");
     }
 
     private static Person initializeJoseph() {
         return new Person("Joseph",
-                "Joseph stared with shock. He's Richard's older friend. His parents disliked him for being a bad influence to their son. You ask him regarding the murder but he responds by saying \"I have no idea how this happened. Richard never told me anything.\" He was born January 22nd, 2005, is 6'0\"\n, weighs 175lbs, and has 13\" feet size. He has been to juvie countless times");
+                "Joseph stared with shock. He's Richard's older friend. His parents disliked him for being a bad influence to their son. You ask him regarding the murder but he responds by saying \"I have no idea how this happened. Richard never told me anything.\" He was born on January 22nd, 2005, is 6'0\"\n, weighs 175lbs, and has 13\" feet size. He has been to juvie countless times");
     }
 
     private static Person initializeUncleBob() {
         return new Person("UncleBob",
-                "You try to ask Uncle Bob what happened but he's quiet. He seems like he's still processing what just occurred. He has been lazily searching for jobs and has relied on his brother for several years now. He was born February 3rd, 1975, is 5'11\", weighs 170lbs, and has 12\" feet size. He is not married.");
+                "You try to ask Uncle Bob what happened but he's quiet. He seems like he's still processing what just occurred. He has been lazily searching for jobs and has relied on his brother for several years now. He was born on February 3rd, 1975, is 5'11\", weighs 170lbs, and has 12\" feet size. He is not married.");
     }
 
     /*****************************************************************
