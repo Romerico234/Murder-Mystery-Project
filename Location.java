@@ -1,24 +1,48 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Location {
-    // State of the location object
-    String name;
-    String description;
-    String here;
-    Item item;
-    Entities[] Entitieshere = new Entities[5];
+public class Location extends Entities {
+    private List<Item> items = new ArrayList<>();
+    private List<Person> characters = new ArrayList<>();
+    private String initialDesc; // Store the initial description
 
-    // The arrays could be ArrayLists for ease of use - look them up and learn how
-    // you can use them.
-    Item[] itemsHere = new Item[4]; // to hold all of the items in this location.
+    public Location(String name, String baseDescription) {
+        super(name, baseDescription);
+        this.initialDesc = baseDescription;
+        updateDescription();
+    }
 
-    Location[] exits; // to hold all of the locations that you can get to from this location.
+    public void addItem(Item item) {
+        items.add(item);
+        updateDescription();
+    }
 
-    public Location() {
-    };
+    public void removeItem(Item item) {
+        items.remove(item);
+        updateDescription();
+    }
 
-    public Item getItem(String objectName) {
-        // Find the item in itemsHere and return it.
-        return itemsHere[0]; // this is not correct.
+    public List<Item> getItems() {
+        return new ArrayList<>(items); // Return a copy to encapsulate the internal list
+    }
+
+    public void addCharacter(Person character) {
+        characters.add(character);
+    }
+
+    public List<Person> getCharacters() {
+        return new ArrayList<>(characters); // Return a copy to encapsulate the internal list
+    }
+
+    private void updateDescription() {
+        String desc = initialDesc + "\nItems in this location: ";
+        if (!items.isEmpty()) {
+            for (Item item : items) 
+                desc += item.getName() + ", ";
+            // Remove the last comma and space
+            desc = desc.substring(0, desc.length() - 2);
+        } else 
+            desc += "None";
+        setDescription(desc);
     }
 }

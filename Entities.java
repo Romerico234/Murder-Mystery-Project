@@ -1,17 +1,21 @@
-public class Entities {
-    String name;
-    String description;
-    Item[] itemscollected = new Item[5]; 
+public abstract class Entities {
+    private String name;
+    private String description;
 
-    public Entities() {
-    };
-
-    public Entities(String n, String d) {
-        name = n;
-        description = d;
+    public Entities(String name, String description) {
+        this.name = name;
+        this.description = description;
     }
 
-    public String getDesc() {
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
         return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

@@ -22,7 +22,7 @@ public class TerminalProgramLauncher {
 
         // Edit the JAR_FILE string to match the name of your game .jar file.
         // Keep the ./ in front of the filename.
-        final String JAR_FILE = "./GameData.jar";
+        final String JAR_FILE = "./MurderMystery.jar";
 
         String os = System.getProperty("os.name").toLowerCase();
 
