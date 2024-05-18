@@ -38,10 +38,9 @@ The first ending simply requires knowing the game mechanics. I will discuss the 
 
 At first glance, the 8-digit code may seem like one of the birth dates of our characters:
 
-Richard Jr's Birthday: 07 30 2007
-Joseph's Birthday: 01 22 2005
-Uncle Bob's Birthday: 02 03 1975
-However, the real clues lie in:
+- Richard Jr's Birthday: 07 30 2007
+- Joseph's Birthday: 01 22 2005
+- Uncle Bob's Birthday: 02 03 1975
 
 But, you will quickly realize that this is wrong.
 
