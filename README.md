@@ -58,7 +58,8 @@ No tricks here, the the entire phrase is supposed to be "Birth Month"
 - afternoon. do my laundry while im out 
 - buddy. ill come back with ur favorite
 - ensaimadas
-- thanks 
+- thanks
+  
 The first letter of each line spells "alphabet"
 
 **Chess board with pawns on A1 and B2**:
