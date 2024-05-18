@@ -15,7 +15,7 @@ This was my final project for COSC 236 at Towson University for Dr. Dastyni Loks
 
 **Credit:**
 - *Older Version:* Collaborated with Michael Reifer where we developed the program and storyline. Utilized starter code provided by Dr. Dastyni Loksa.
-- *Newer Version:* This version was done completely independetly. I slighlty changed the original storyline (clarified and used different clues). I only utilized the helper methods and the game loop functionality from the starter code Dr. Loksa provided.
+- *Newer Version:* This version was done completely independently. I slighlty changed the original storyline (clarified and used different clues). I only utilized the helper methods and the game loop functionality from the starter code Dr. Loksa provided.
 
 
 Next, I will explain how to reach the endings. I am including this section because reaching the conclusion requires you to interpret the clues. If you have the time, I highly recommend skipping this part until you have gotten stuck or lost.
